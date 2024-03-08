@@ -33,7 +33,8 @@ jobs:
   Deploy:
     needs: Build
     permissions:
-      pages: write 
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - name: Get build artifacts
