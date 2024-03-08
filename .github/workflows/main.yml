@@ -43,5 +43,5 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           app-name: aurelia-contact-manager
-          publish-profile: ${{ secrets.GITHUB_TOKEN}}
+          publish-profile: ${{ secrets.TOKEN}}
           path: dist/contact-manager      
