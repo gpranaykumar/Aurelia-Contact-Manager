@@ -32,6 +32,8 @@ jobs:
 
   Deploy:
     needs: Build
+    permissions:
+      pages: write 
     runs-on: ubuntu-latest
     steps:
       - name: Get build artifacts
