@@ -17,6 +17,8 @@ export class ReactWrapper {
   }
 
   testFun(msg: string):void {
+    
+    alert("Aurelia to React Function test as props: "+ msg);
     console.log("Aurelia to React Function test as props: ", msg);
   }
 
